@@ -1,4 +1,4 @@
-<pre>This is my first recovery, for MTK powered phones.
+This is my first recovery, for MTK powered phones.
 
 Basically is CWM 6.0.4.4 with touch buttons menu. It has all functionality of CWM Recovery, and I added extra, Aroma File Manager support.
 
@@ -22,7 +22,8 @@ int resY = "phone res height + 4";	// for example  960+4=964
 /*
 ```
 ==============================================================================================================
-<pre>Also, in "ui.c" file set the following:
+Also, in "ui.c" file set the following:
+<pre>
 ```
 #define CHAR_WIDTH 15  // accordingly to first value of the font used in BoardConfig.mk
 
