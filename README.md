@@ -7,6 +7,7 @@ The touch module is inspired mostly by <a href="https://github.com/scanno/CWM-Re
 This is not a modified COT recovery. You won't find here settings or theme or some other cool stuff they created for COT recovery. For that go to COT Recovery source. I made this recovery to keep it simple and slim, because MTK phones have a limited size recovery partition. As I said, is a CWM modded recovery with touch screen menu buttons. Also I kept the Go Back entry in menu, just in case if for some devices is not working the touch menu - it will be just a good CWM recovery.
 
 To compile you need a device folder for your phone, a cm-10.1 building environment and my source. Then just open "default_recovery_ui.c" and at line 46-47 and 53-54 do these settings:
+<pre>
 ```
 */
 int maxX = "phone res width";	// for example  540
@@ -20,6 +21,7 @@ int resY = "phone res height + 4";	// for example  960+4=964
 
 /*
 ```
+</pre>
 Also, in "ui.c" file set the following:
 ```
 #define CHAR_WIDTH 15  // accordingly to first value of the font used in BoardConfig.mk
